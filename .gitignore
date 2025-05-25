@@ -1,0 +1,17 @@
+# 👉 Thư mục build tạm của PlatformIO
+.pio/
+
+# 👉 Cấu hình VS Code (không cần theo dõi trong Git)
+.vscode/
+
+# 👉 Các file sinh tự động hoặc cache
+*.pyc
+*.swp
+*.bak
+*.tmp
+*.db
+.DS_Store
+Thumbs.db
+
+# 👉 Thư mục test (nếu chỉ dùng để thử, không cần lưu Git)
+test/
