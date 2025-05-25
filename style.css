@@ -1,0 +1,15 @@
+/* img {
+  transition: 1s;
+} */
+input:checked ~ img {
+  opacity: 0;
+  visibility: hidden;
+}
+li.demo {
+  transition: 1s;
+}
+
+input:checked ~ li.demo {
+  opacity: 0;
+  visibility: hidden;
+}
